@@ -7,7 +7,7 @@ export default class AngelDevilScale extends React.Component {
         super(props);
 
         this.state = {
-            rainiScore : 75, //out of 100
+            rainiScore : 10, //out of 100
             scoreDescription : "Raini has been rather loving and affectionate lately, we view her fondly. tdkjfha sdfjkh aslkdfh askldjf lkajh sldkfjh aslkdfh ",
         };
     }

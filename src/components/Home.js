@@ -1,14 +1,27 @@
 import AngelDevilScale from "./AngelDevilScale";
+import CatLookAnimation from "./CatLookAnimation";
 
 
 export default function Home() {
     return(
         <div> 
-            Home Page - Whoop Whoop
+            <CatLookAnimation ></CatLookAnimation>
             <br></br>
             <br></br>
             <br></br> 
-            <AngelDevilScale></AngelDevilScale>
+            <br></br>
+            <br></br>
+            <br></br> 
+            <br></br>
+            <br></br>
+            <br></br> 
+            <br></br>
+            <br></br>
+            <br></br> 
+            <br></br>
+            <br></br>
+            <br></br> 
+            <AngelDevilScale style={{position: 'absolute', top: '50%'}}></AngelDevilScale>
         </div>
     );
 }
