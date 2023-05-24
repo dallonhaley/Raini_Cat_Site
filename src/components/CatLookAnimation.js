@@ -1,5 +1,8 @@
 import '../styles/CatLookAnimation.scss'
 
+//Source: 
+//https://codepen.io/johanmouchet/pen/OXxvqM
+
 export default function CatLookAnimation() {
     return(
         <div class="cat">

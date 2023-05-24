@@ -12,10 +12,9 @@ body {
     // position: relative;
     // height: $size;
     // width: $size * 1.13;
-    position: absolute;
+    position: relative;
     height: $size;
     width: $size * 1.13;
-    left: 40%;
     top: 15%;
 }
 
@@ -100,7 +99,7 @@ body {
         left: 0;
         height: 0;
         width: 100%;
-        border-radius: 100% 100% 50% 50% / 100% 100% 40% 40%;
+        border-radius: 0% 0% 50% 50% / 0% 0% 40% 40%;
         background: $color-raini;
         animation: blink 4s infinite ease-in;
     }

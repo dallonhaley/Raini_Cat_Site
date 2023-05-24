@@ -1,0 +1,37 @@
+img{
+    width: 150px;
+    height: 200px;
+    border:50px;
+}
+
+#HomeGalleryList{
+    height: 300px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top:30px;
+    display: flex;
+    justify-content: center;
+}
+
+.HomeGallerySection {
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.HomeGalleryLeft{
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+    margin-left:25px;
+}
+
+.HomeGalleryRight{
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+    margin-right:25px;
+}
+  

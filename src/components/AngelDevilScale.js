@@ -30,7 +30,7 @@ export default class AngelDevilScale extends React.Component {
         const devilImg = document.getElementById('devilCatImg');
 
         // Set up Canvas 
-        canvas.width = (window.innerWidth / 10) * 9;
+        canvas.width = window.innerWidth;
         canvas.height = 60;
 
         // Draw 1-D scale 
